@@ -1,0 +1,25 @@
+{
+    //address - path of database, empty addres is path of executable
+    //name - database name
+    "Address":"D:\\kvpdb",
+    "Name":"test1",
+
+    //port - TCP port database is running on
+    //port range from 1024 to 49151
+    "Port":"8888",
+
+    //Http endpoint security modes
+    //OPEN - anyone can read and write
+    //RESTRICT - anyone can read, only authorized users can write
+    //AUTH - only authorized users can read and write
+    "Security": "RESTRICT",
+
+    //caching counts number of values kept in memory
+    // <0 - caches everyting
+    // =0 - nothing cached in memory
+    // >0 - specific number of chached elements
+    "DatabaseCaching":1000
+    "UsersCaching":-1
+
+    //node replication config
+}

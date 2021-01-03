@@ -1,0 +1,12 @@
+{
+    "Address":"D:/kvpdb",
+    "Name":"test1",
+
+    "Port":"8888",
+    
+    "Security": "RESTRICT",
+
+    "DatabaseCaching":1000,
+    "UsersCaching":-1
+
+}
